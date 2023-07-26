@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind and daisy UI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-SodmLqF7nOJKSc9CCJ2sHrXNf7Uq2GFx+YRnKwW9c4YfYwNnzJ2dIwTFH7sf5yaZw4+6f72JGXL6u73IZWShg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header class="max-w-screen-2xl mx-auto my-10 py-5 px-8 ">
+        <nav>
+            <section>
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Home</a></li>
+                          <li>
+                            <a>About Us</a>
+                            
+                          </li>
+                          <li><a>Shop</a></li>
+                          <li><a>All Fruits</a></li>
+
+                        </ul>
+                      </div>
+                      <a class="btn btn-ghost normal-case text-xl">Home</a>
+                      <!-- <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                      <a class="btn btn-ghost normal-case text-xl">daisyUI</a> -->
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1">
+                        <li><a>Fruit Burst</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end">
+                      <a class="btn">Button</a>
+                    </div>
+                  </div>
+            </section>
+            <div class="navbar rounded-full py-7 text-white bg-[#F85559]">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <!-- <label tabindex="0" class="btn btn-ghost btn-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                    </label> -->
+                    <!-- <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"> -->
+                        <div class="flex flex-row">
+                            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                <li><a>Home</a></li>
+                                <li>
+                                  <a>About Us</a>
+                                  
+                                </li>
+                                <li><a>Shop</a></li>
+                                <li><a>All Fruits</a></li>
+      
+                              </ul>
+                                <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                            </ul>
+                            
+                        </div>
+                      
+                    <!-- </ul> -->
+                  </div>
+                </div>
+                <div class="navbar-center">
+                  <a class="btn btn-ghost normal-case text-xl"> <img src="images/logo.png" alt=""> Fruit Burst</a>
+                </div>
+                <div class="navbar-end">
+                    <div class="flex items-center border rounded-full bg-white p-2">
+                        <input type="text" class="w-full py-2 px-4 border-0 focus:outline-none" placeholder="Search here">
+                        <div class="ml-3">
+                            <img src="<i class="fa-solid fa-magnifying-glass"></i>" alt="Search">
+                        </div>
+                    </div>
+                  <!-- <button class="btn btn-ghost btn-circle">
+                    <div class="rounded-full">
+                        <input type="text" placeholder="Search Here " class="input input-bordered " /> 
+        <button class="btn"><img src="<i class="fa-solid fa-magnifying-glass"></i>" alt=""></button> -->
+                        <!-- <div><input type="text" placeholder="Search Here" class="input input-bordered " /></div> 
+                        <div><img src="<i class="fa-solid fa-magnifying-glass"></i>" alt=""></div> -->
+                         
+                    </div>
+                  
+                  </button>
+                  <!-- <button class="btn btn-ghost btn-circle">
+                    <div class="indicator">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+                      <span class="badge badge-xs badge-primary indicator-item"></span>
+                    </div>
+                  </button> -->
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main class="max-w-screen-2xl mx-auto my-10 py-5 px-8">
+        <section>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="hero min-h-screen" style="background-image: url(images/banner1.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                          <div class="">
+                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
+                            <p class="mb-5">We supply highly quality organic products</p>
+                            <button class="btn btn-primary bg-[#F85559] border-none">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle bg-black border-none">❮</a> 
+                    <a href="#slide2" class="btn btn-circle bg-black border-none">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="hero min-h-screen" style="background-image: url(images/banner2.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                          <div class="">
+                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
+                            <p class="mb-5">We supply highly quality organic products</p>
+                            <button class="btn btn-primary bg-[#F85559] border-none">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle bg-black border-none">❮</a> 
+                    <a href="#slide3" class="btn btn-circle bg-black border-none">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="hero min-h-screen" style="background-image: url(images/banner3.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                          <div class="">
+                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
+                            <p class="mb-5">We supply highly quality organic products</p>
+                            <button class="btn btn-primary bg-[#F85559] border-none">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle bg-black border-none">❮</a> 
+                    <a href="#slide4" class="btn btn-circle bg-black border-none">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="hero min-h-screen" style="background-image: url(images/banner4.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content">
+                          <div class="">
+                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your <br>doorstep</h1>
+                            <p class="mb-5">We supply highly quality organic products</p>
+                            <button class="btn btn-primary bg-[#F85559] border-none">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle bg-black border-none">❮</a> 
+                    <a href="#slide1" class="btn btn-circle bg-black border-none">❯</a>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section>
+            <div class="hero min-h-screen w-full" style="background-image: url(images/banner1.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class=" "> 
+                    <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
+                    <p class="mb-5 ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                        <div class="card">
+                            <figure class="px-10 pt-10">
+                              <img class="w-35" src="/images/member1.png" alt="Shoes" class="rounded" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title">Awlad Hossain</h2>
+                              <p>Fruits Expert</p>
+                            
+                                <div class="flex gap-3">
+                                    <div><img src="images/facebook 1 (1).svg" alt=""></div>
+                                    <div><img src="images/twitter (1) 1.svg" alt=""></div>
+                                    <div><img src="images/linkedin 1 (1).svg" alt=""></div>
+                                </div>
+                            
+                            </div>
+                          </div>
+                          <div class="card">
+                            <figure class="px-10 pt-10">
+                              <img class="w-35" src="/images/member2.png" alt="Shoes" class="rounded" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title">Safia Chowdhury</h2>
+                              <p>Fruits Expert</p>
+                            
+                                <div class="flex gap-3">
+                                    <div><img src="images/facebook 1 (1).svg" alt=""></div>
+                                    <div><img src="images/twitter (1) 1.svg" alt=""></div>
+                                    <div><img src="images/linkedin 1 (1).svg" alt=""></div>
+                                </div>
+                            
+                            </div>
+                          </div>
+                          <div class="card">
+                            <figure class="px-10 pt-10">
+                              <img class="w-35" src="/images/member3.png" alt="Shoes" class="rounded" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title">Rokib Hossain</h2>
+                              <p>Fruits Expert</p>
+                            
+                                <div class="flex gap-3">
+                                    <div><img src="images/facebook 1 (1).svg" alt=""></div>
+                                    <div><img src="images/twitter (1) 1.svg" alt=""></div>
+                                    <div><img src="images/linkedin 1 (1).svg" alt=""></div>
+                                </div>
+                            
+                            </div>
+                          </div>
+                          <div class="card">
+                            <figure class="px-10 pt-10">
+                              <img class="w-35" src="/images/member4.png" alt="Shoes" class="rounded" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title">Chaity</h2>
+                              <p>Fruits Expert</p>
+                            
+                                <div class="flex gap-3">
+                                    <div><img src="images/facebook 1 (1).svg" alt=""></div>
+                                    <div><img src="images/twitter (1) 1.svg" alt=""></div>
+                                    <div><img src="images/linkedin 1 (1).svg" alt=""></div>
+                                </div>
+                            
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+    </main>
+    <!-- <footer class="mx-auto bg-black">
+        <a class="btn btn-ghost normal-case text-xl"> <img src="images/logo.png" alt=""> Fruit Burst</a> -->
+        <footer class="footer footer-center p-10 py-32 bg-base-200 text-base-content text-white rounded bg-black">
+            <div class="grid grid-cols-1"><a class="btn btn-ghost normal-case text-xl"> <img src="images/logo.png" alt=""> Fruit Burst</a></div>
+            <div class="grid grid-flow-col gap-x-16">
+              <a class="link link-hover">Home</a> 
+              <a class="link link-hover">About Us</a> 
+              <a class="link link-hover">Shop</a> 
+              <a class="link link-hover">All Fruits</a>
+              <a class="link link-hover">Support</a>
+              <a class="link link-hover">My Account</a>
+            </div> 
+            <div>
+              <div class="grid grid-flow-col gap-9 ">
+                <a><img src="icons/twitter 1 (1).svg" alt=""></a> 
+                <a><img src="icons/facebook 1 (2).svg" alt=""></a> 
+                <a><img src="icons/Group 49 (1).svg" alt=""></a> 
+                <a><img src="icons/linkedin 1 (2).svg" alt=""></a> 
+                <a><img src="icons/instagram 1 (1).svg" alt=""></a> 
+                <a><img src="icons/apple 1 (1).svg" alt=""></a> 
+                
+              </div>
+            </div> 
+            
+          </footer>
+
+    <!-- </footer> -->
+</body>
+</html>
