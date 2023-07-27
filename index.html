@@ -12,98 +12,57 @@
 
 </head>
 <body>
-    <header class="max-w-screen-2xl mx-auto my-10 py-5 px-8 ">
-        <nav>
-            <section>
-                <div class="navbar bg-base-100">
-                    <div class="navbar-start">
-                      <div class="dropdown">
-                        <label tabindex="0" class="btn btn-ghost lg:hidden">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                        </label>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                          <li><a>Home</a></li>
-                          <li>
-                            <a>About Us</a>
-                            
-                          </li>
-                          <li><a>Shop</a></li>
-                          <li><a>All Fruits</a></li>
-
-                        </ul>
-                      </div>
-                      <a class="btn btn-ghost normal-case text-xl">Home</a>
-                      <!-- <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
-                      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
-                      <a class="btn btn-ghost normal-case text-xl">daisyUI</a> -->
-                    </div>
-                    <div class="navbar-center hidden lg:flex">
-                      <ul class="menu menu-horizontal px-1">
-                        <li><a>Fruit Burst</a></li>
-                      </ul>
-                    </div>
-                    <div class="navbar-end">
-                      <a class="btn">Button</a>
-                    </div>
-                  </div>
-            </section>
-            <div class="navbar rounded-full py-7 text-white bg-[#F85559]">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <!-- <label tabindex="0" class="btn btn-ghost btn-circle">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                    </label> -->
-                    <!-- <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"> -->
-                        <div class="flex flex-row">
-                            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+    <header class="max-w-screen-2xl mx-auto  px-8 ">
+             <nav>
+                 <section class="">
+                    <div class="navbar rounded-full py-7 bg-none lg:bg-[#F85559] flex justify-between items-center">
+                        <div class="navbar-start hidden lg:flex items-center">
+                            <ul class="menu menu-horizontal px-1 text-white text-center">
                                 <li><a>Home</a></li>
-                                <li>
-                                  <a>About Us</a>
-                                  
-                                </li>
+                                <li><a>About Us</a></li>
                                 <li><a>Shop</a></li>
                                 <li><a>All Fruits</a></li>
-      
-                              </ul>
-                                <li><a>Home</a></li>
-                            <li><a>About Us</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>All Fruits</a></li>
                             </ul>
-                            
+                         </div>
+                         <a class="btn btn-ghost normal-case text-xl text-black lg:text-white">
+                            <img src="images/logo.png" alt=""> Fruit Burst
+                        </a>
+                        <div class="navbar-end hidden md:hidden lg:flex items-center">
+                            <div class="flex items-center border rounded-full bg-white p-2">
+                                <input type="text" class="w-full py-2 px-4 border-0 " placeholder="Search here">
+                                <div class="ml-3">
+                                    <img src="icons/Frame (5).svg" alt="Search">
+                                </div>
+                            </div>
                         </div>
-                      
-                    <!-- </ul> -->
-                  </div>
-                </div>
-                <div class="navbar-center">
-                  <a class="btn btn-ghost normal-case text-xl"> <img src="images/logo.png" alt=""> Fruit Burst</a>
-                </div>
-                <div class="navbar-end">
-                    <div class="flex items-center border rounded-full bg-white p-2">
-                        <input type="text" class="w-full py-2 px-4 border-0 focus:outline-none" placeholder="Search here">
-                        <div class="ml-3">
-                            <img  src="icons/Frame (5).svg" alt="Search">
-                        </div>  
+                         <div class="lg:hidden">
+                            <div class="dropdown">
+                                <label tabindex="0" class="btn btn-ghost">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                                    </svg>
+                                 </label>
+                                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                    <li><a>Home</a></li>
+                                    <li><a>About Us</a></li>
+                                    <li><a>Shop</a></li>
+                                    <li><a>All Fruits</a></li>
+                                    <li>
+                                      <div class="flex items-center border rounded-full bg-white p-2">
+                                            <input type="text" class="w-full py-2 px-4 border-0 focus:outline-none" placeholder="Search here">
+                                            <div class="ml-3">
+                                                <img src="icons/Frame (5).svg" alt="Search">
+                                            </div>
+                                          </div>
+                                     </li>
+                                </ul>
+                            </div>
+                         </div>
                     </div>
-                  <!-- <button class="btn btn-ghost btn-circle">
-                    <div class="rounded-full">
-                        <input type="text" placeholder="Search Here " class="input input-bordered " /> 
-        <button class="btn"><img src="<i class="fa-solid fa-magnifying-glass"></i>" alt=""></button> -->
-                        <!-- <div><input type="text" placeholder="Search Here" class="input input-bordered " /></div> 
-                        <div><img src="<i class="fa-solid fa-magnifying-glass"></i>" alt=""></div> -->
-                         
-                    </div>
-                  
-                  </button>
-                  <!-- <button class="btn btn-ghost btn-circle">
-                    <div class="indicator">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
-                      <span class="badge badge-xs badge-primary indicator-item"></span>
-                    </div>
-                  </button> -->
-                </div>
-              </div>
+                </section>
+             </nav>
+        <nav>
+            
         </nav>
     </header>
     <main class="max-w-screen-2xl mx-auto my-10 py-5 px-8">
@@ -215,38 +174,36 @@
                 </div>
                 <div class="grid grid-flow-col gap-5 justify-center lg:justify-end text-center  ">
                     <div class="flex flex-col">
-                      <span class="countdown font-mono text-5xl">
+                    <span class="countdown font-mono text-5xl">
                         <span style="--value:15;"></span>
-                      </span>
-                      days
+                    </span>
+                    days
                     </div> :
                     <div class="flex flex-col">
-                      <span class="countdown font-mono text-5xl">
+                    <span class="countdown font-mono text-5xl">
                         <span style="--value:10;"></span>
-                      </span>
-                      hours
+                    </span>
+                    hours
                     </div> :
                     <div class="flex flex-col">
-                      <span class="countdown font-mono text-5xl">
+                    <span class="countdown font-mono text-5xl">
                         <span style="--value:24;"></span>
-                      </span>
-                      min
+                    </span>
+                    min
                     </div> :
                     <div class="flex flex-col">
-                      <span class="countdown font-mono text-5xl">
+                    <span class="countdown font-mono text-5xl">
                         <span style="--value:7;"></span>
-                      </span>
-                      sec
+                    </span>
+                    sec
                     </div>
-                  </div>
+                </div>
             </div>
             <!-- 1st-card -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                 <div class="w-auto"> 
                     <!-- 1st swap card -->
                     <label class="swap swap-flip  ">
-          
-                        <!-- this hidden checkbox controls the state -->
                         <input type="checkbox" />
                         
                         <div class="swap-on"><div class="card  shadow-xl">
@@ -304,7 +261,6 @@
                         <!-- 2st swap card -->
                         <label class="swap swap-flip  ">
               
-                            <!-- this hidden checkbox controls the state -->
                             <input type="checkbox" />
                             
                             <div class="swap-on"><div class="card  shadow-xl">
@@ -362,7 +318,6 @@
                             <!-- 3rd swap card -->
                             <label class="swap swap-flip  ">
                   
-                                <!-- this hidden checkbox controls the state -->
                                 <input type="checkbox" />
                                 
                                 <div class="swap-on"><div class="card  shadow-xl">
@@ -419,8 +374,6 @@
                             <div class="w-auto"> 
                                 <!-- 4th swap card -->
                                 <label class="swap swap-flip  ">
-                      
-                                    <!-- this hidden checkbox controls the state -->
                                     <input type="checkbox" />
                                     
                                     <div class="swap-on"><div class="card  shadow-xl">
@@ -472,7 +425,7 @@
                                           <button class="text-sm text-[#F85559]">details</button>
                                         </div>
                                       </div></div>
-                                  </label></div>
+                                   </label></div>
             </div>
            
         </section>
@@ -553,6 +506,92 @@
                 </div>
               </div>
         </section>
+        <section class="max-w-screen-2xl mx-auto  px-8">
+            <div class="text-center items-center">
+                
+                 <div class="card-body items-center text-center">
+                     <h2 class="card-title text-3xl font-bold">Why Choose Us</h2>
+                      <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-3">
+                <div class="flex flex-col text-center justify-center lg:justify-normal lg:text-left order-2 lg:order-1">
+                     <div class="flex gap-2 flex-col lg:flex-row">
+                        <div class="flex justify-center lg:justify-start">
+                            <img class="bg-gray-400 rounded-full p-3" src="icons/group 1.svg" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-bold pb-2">Dedicated Team</h3>
+                            <hr class="">
+                            <p class="pt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                         </div>
+                    </div>
+                    <div class="flex gap-2 pt-5 flex-col lg:flex-row">
+                        <div class="flex justify-center lg:justify-start">
+                            <img class="bg-gray-400 rounded-full p-3" src="icons/love 1.svg" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-bold pb-2">Fresh is Best</h3>
+                            <hr class="">
+                            <p class="pt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                     </div>
+                     <div class="flex gap-2 pt-5 flex-col lg:flex-row">
+                        <div class="flex justify-center lg:justify-start">
+                            <img class="bg-gray-400 rounded-full p-3" src="icons/gift-box 1.svg" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-bold pb-2">Gift Certificates</h3>
+                            <hr class="">
+                            <p class="pt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                         </div>
+                     </div>
+                </div>
+                
+                <div class="flex flex-col items-center lg:items-start order-1 lg:order-2">
+                    <div>
+                        <img class="mb-10" src="images/whychoose1.png" alt="">
+                    </div>
+                </div> 
+            
+                 <div class="flex flex-col text-center justify-center lg:justify-normal lg:text-right order-3">
+                    <div class="flex gap-2 flex-col lg:flex-row-reverse">
+                        <div class="flex justify-center lg:justify-start">
+                            <img class="bg-gray-400 rounded-full p-3" src="icons/fruit 1.svg" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-bold pb-2">Integrated Supplier</h3>
+                            <hr class="">
+                            <p class="pt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                     </div>
+                     <div class="flex gap-2 pt-5 flex-col lg:flex-row-reverse">
+                        <div class="flex justify-center lg:justify-start">
+                            <img class="bg-gray-400 rounded-full p-3" src="icons/ice-cream 1.svg" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-bold pb-2">Sustainable Practice</h3>
+                            <hr class="">
+                            <p class="pt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                     </div>
+                    <div class="flex gap-2 pt-5 flex-col lg:flex-row-reverse">
+                        <div class="flex justify-center lg:justify-start">
+                            <img class="bg-gray-400 rounded-full p-3" src="icons/like 1.svg" alt="">
+                        </div>
+                        <div>
+                            <h3 class="font-bold pb-2">The Benefits Only</h3>
+                            <hr class="">
+                            <p class="pt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        
+
+            
+        </section>
 
     </main>
     <!-- <footer class="mx-auto bg-black">
@@ -560,15 +599,15 @@
         <footer class="footer footer-center p-10 py-32 bg-base-200 text-base-content text-white rounded  bg-black ">
             <div class="grid grid-cols-1"><a class="btn btn-ghost normal-case text-xl"> <img src="images/logo.png" alt=""> Fruit Burst</a></div>
             <div class="grid grid-cols-4 lg:grid-cols-6  gap-x-16">
-              <a class="link link-hover">Home</a> 
-              <a class="link link-hover">About Us</a> 
-              <a class="link link-hover">Shop</a> 
-              <a class="link link-hover">All Fruits</a>
-              <a class="link link-hover">Support</a>
-              <a class="link link-hover">My Account</a>
+                <a class="link link-hover">Home</a> 
+                <a class="link link-hover">About Us</a> 
+                <a class="link link-hover">Shop</a> 
+                <a class="link link-hover">All Fruits</a>
+                <a class="link link-hover">Support</a>
+                <a class="link link-hover">My Account</a>
             </div> 
             <div>
-              <div class="grid grid-flow-col gap-9 ">
+                <div class="grid grid-flow-col gap-9 ">
                 <a><img src="icons/twitter 1 (1).svg" alt=""></a> 
                 <a><img src="icons/facebook 1 (2).svg" alt=""></a> 
                 <a><img src="icons/Group 49 (1).svg" alt=""></a> 
@@ -576,10 +615,10 @@
                 <a><img src="icons/instagram 1 (1).svg" alt=""></a> 
                 <a><img src="icons/apple 1 (1).svg" alt=""></a> 
                 
-              </div>
+                </div>
             </div> 
             
-          </footer>
+            </footer>
 
     <!-- </footer> -->
 </body>
